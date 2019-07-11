@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <title>ENE SOLUÇOES</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div id="imgLogo">
+              <img src="imagens/img1.png" width="200" height="80"> 
+            </div>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+              <ul class="navbar-nav mr-auto">    
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    SEGUROS
+                  </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">
+                Tipos de Seguros                
+              </a>          
+            </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CADASTRAR
+                  </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">   
+                    Novo Cadastro                 
+                  </a>
+            </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CONDIÇÕES GERAIS
+                  </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"> 
+                  Opções               
+              </a>
+            </div>
+                </li>
+                <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    RELATÓRIOS
+              </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"> 
+                  Novo Relatório               
+              </a>
+            </div>
+                </li>
+                <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    FINANCEIRO
+              </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">
+                  Exibir Finanças                
+              </a>
+            </div>
+                </li>
+                <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    TI
+              </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"> 
+                  Suporte
+              </a>
+            </div>
+                </li>
+                <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    LOGIN
+              </a>
+        <ul id="login-dp" class="dropdown-menu">
+          <li>
+            <div class="row">
+              <div class="col-md-12">
+                <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                  <div class="form-group">
+                    <label class="sr-only" for="example">
+                      E-mail
+                    </label>
+                      <input type="email" class="form-control" id="example" placeholder="E-mail" required>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="Password">
+                      Senha
+                    </label>
+                      <input type="password" class="form-control" id="Password" placeholder="Senha" required>
+                  <div class="help-block text-right">
+                    <a href="">Esqueceu a senha?
+                    </a>
+                  </div>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block">
+                      Logar
+                    </button>
+                  </div>                    
+                </form>
+              </div>              
+            </div>
+          </li>
+        </ul>
+        </li>
+        </ul>    
+        </div>
+        </nav>    
+        <div class="col-md-6">  
+          <form>
+        <div class="form-group">
+          <input type="text" class="form-control" id="pesquisa" aria-describedby="pesquisa" placeholder="Pesquisar">
+        </div>      
+          </form>
+        </div>
+        <div class="col-md-7">  
+        <div class="shadow-sm p-3 mb-5 bg-white rounded">
+        <div class="border">
+          <h4> 
+            Seguradoras 
+          </h4> 
+        </div>
+        <table class="table">        
+        <tbody>
+          <tr>
+            <td>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">
+                  <img src="imagens/porto1.png" width="60" height="30">
+                </label>
+              </div>
+            </td>
+            <td>
+              <h5>
+                <h9>
+                  12x
+                </h9>
+                  R$ 2.354,39
+              </h5>
+            </td>
+          </tr>
+          <tr>  
+          <td>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck2">
+              <label class="custom-control-label" for="customCheck2">
+                <img src="imagens/liberty2.png" width="60" height="30">
+              </label>
+            </div>
+          </td>         
+            <td>
+              <h5>
+                <h9>
+                12x
+              </h9>
+                R$ 2.354,39
+              </h5>
+            </td>
+          </tr>
+          <tr> 
+          <td>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck3">
+              <label class="custom-control-label" for="customCheck3">
+                <img src="imagens/too3.png" width="60" height="30">
+              </label>
+            </div>
+          </td>          
+            <td>
+              <h5>
+                <h9>
+                  12x
+                </h9>
+                  R$ 2.354,39
+              </h5>
+            </td>
+          </tr>
+          <tr> 
+          <td>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck4">
+              <label class="custom-control-label" for="customCheck4">
+                <img src="imagens/toki4.png" width="60" height="30">
+              </label>
+              </div>
+            </td>           
+            <td>
+              <h5>
+                <h9>
+                  12x
+                </h9>
+                  R$ 2.354,39
+              </h5>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="button" class="btn btn-outline-info">
+                SALVAR
+              </button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-primary">
+                Solicitar Análise
+              </button>
+            </td>
+          </tr>
+        </tbody>        
+      </table>      
+      </div>
+      </div>
+      <div class="col-md-5">
+        <h3>
+          Solicitar Fiança
+        </h3>
+        <h6>
+          Seguros | Seguro Fiança | Solicitar Fiança | 
+        <h7>
+          Cadastro Residencial
+        </h7>
+        </h6>
+    </div>
+    <div class="col-md-8">
+      <h4>
+        Coberturas
+      </h4>
+      <h6>
+        Tipo de Plano*
+      </h6>
+      <table style="width:30%">
+        <tr>
+          <td>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="defaultGroupExample1" name="groupOfDefaultRadios1">
+              <label class="custom-control-label" for="defaultGroupExample1">
+                <h9>
+                  Básico
+                </h9>
+              </label>
+            </div>
+          </td>
+        <td>
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="defaultGroupExample2" name="groupOfDefaultRadios1">
+            <label class="custom-control-label" for="defaultGroupExample2">
+              <h9>
+                Completo
+              </h9>
+            </label>
+          </div>
+        </td>
+        </tr>
+      </table>
+      <br>
+      <table>  
+      <tr>
+      <td>
+        <form>
+          <div class="form-group">
+            <label for="example">              
+            </label>
+            <input type="number" class="form-control" id="aluguel" aria-describedby="aluguel" placeholder="Aluguel*">       
+          </div>  
+        </form>
+      </td>
+      <td>
+        <form>
+        <div class="form-group">
+          <label for="example">            
+          </label>
+          <input type="number" class="form-control" id="agua" aria-describedby="agua" placeholder="Água*">          
+        </div>  
+      </form>
+    </td>
+    <td>
+      <form>
+        <div class="form-group">
+          <label for="example">            
+          </label>
+          <input type="number" class="form-control" id="condominio" aria-describedby="condominio" placeholder="Condomínio*">   
+        </div>  
+      </form>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <form>
+        <div class="form-group">
+          <label for="example">            
+          </label>
+          <input type="number" class="form-control" id="gas" aria-describedby="gas" placeholder="Gás Canalizado*"> </div>  
+      </form>
+      </td>
+      <td>
+        <form>
+          <div class="form-group">
+            <label for="example">            
+            </label>
+            <input type="number" class="form-control" id="iptu" aria-describedby="iptu" placeholder="IPTU (Anual)*"> 
+          </div>  
+        </form>
+      </td>
+    <td>
+      <form>
+        <div class="form-group">
+          <label for="example">            
+          </label>
+          <input type="number" class="form-control" id="energia" aria-describedby="energia" placeholder="Energia*">       
+        </div>  
+      </form>
+    </td>
+  </tr>
+  </table>  
+  <h6>Coberturas Adicionais*</h6>
+    <table style="width:70%">
+    <tr>
+      <td>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="customCheck5">
+          <label class="custom-control-label" for="customCheck5"> 
+            <h9>
+              Danos ao Imóvel
+            </h9>
+          </label>          
+        </div>
+    </td>
+    <td>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck6">
+        <label class="custom-control-label" for="customCheck6">
+          <h9>
+            Multa Contratual
+          </h9>
+        </label>
+      </div>
+    </td>
+    <td>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck7">
+        <label class="custom-control-label" for="customCheck7">
+          <h9>
+            Pintura Interna
+          </h9>
+        </label>
+      </div>
+    </td>
+    <td>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck8">
+        <label class="custom-control-label" for="customCheck8">
+          <h9>
+            Pintura Externa
+          </h9>
+        </label>
+      </div>
+    </td>
+  </tr>  
+  </table>
+  <br>
+  <h4>
+    Dados do Endereço Pretendido
+  </h4>
+  <table style="width:50%">
+    <tr>
+    <td>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tipo de Imóvel
+        </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">
+              Casa
+            </a>
+            <a class="dropdown-item" href="#">
+              Sobrado
+            </a>
+            <a class="dropdown-item" href="#">
+              Apartamento
+            </a>
+            <a class="dropdown-item" href="#">
+              Kitnet
+            </a>
+          </div>
+        </div>
+      </td>
+      <td>
+      <div class="input7"> 
+        <form>        
+          <label for="exampleInputEmail7">            
+          </label>
+          <input type="number" class="form-control" id="exampleInputEmail7" aria-describedby="emailHelp" placeholder="CEP*">   
+        </form>
+      </div>
+    </td>       
+  </tr>  
+  </table>
+  <br>
+  <h4>
+    Dados do Pretendente
+  </h4>
+  <h6>
+    Tipo de Pessoa*
+  </h6>
+  <table style="width:30%">
+    <tr>
+      <td>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="defaultGroupExample3" name="groupOfDefaultRadios2">
+            <label class="custom-control-label" for="defaultGroupExample3">
+              <h9>
+                Física
+              </h9>
+            </label>
+          </div>
+        </td>
+        <td>
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="defaultGroupExample4" name="groupOfDefaultRadios2">
+            <label class="custom-control-label" for="defaultGroupExample4">
+              <h9>
+                Jurídica
+              </h9>
+            </label>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <table style="width:80%">
+    <tr>
+      <td>
+        <div class="input8">
+          <div class="form-group">
+          <input type="example" class="form-control" size="30" id="nome" placeholder="Nome Completo*">
+          </div>
+        </div>
+      </td>
+      <td>
+        <form>
+          <div class="form-group">
+            <label for="example">              
+            </label>
+            <input type="number" class="form-control2" id="CPF" ia-describedby="cpf" placeholder="CPF*">          
+          </div>  
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tipo de Documento
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">
+              RG
+            </a>
+            <a class="dropdown-item" href="#">
+              CPF
+            </a>
+            <a class="dropdown-item" href="#">
+              CNH
+            </a>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <h6>
+    Nacionalidade*
+  </h6>
+  <table style="width:30%">
+    <tr>
+      <td>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="defaultGroupExample5" name="groupOfDefaultRadios3">
+          <label class="custom-control-label" for="defaultGroupExample5">
+            <h9>
+              Brasileiro
+            </h9>
+          </label>
+        </div>
+      </td>
+      <td>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="defaultGroupExample6" name="groupOfDefaultRadios3">
+          <label class="custom-control-label" for="defaultGroupExample6">
+            <h9>
+              Estrangeiro
+            </h9>
+          </label>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <table>  
+    <tr>
+      <td>
+        <div class="form-group">
+          <label for="exampleInputEmail1">            
+          </label>
+          <input type="date" id="date" class="form-control" placeholder="DD/MM/AAAA">          
+        </div> 
+      </td>
+      <td>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">            
+          </label>
+          <input type="number" class="form-control2" id="tel" aria-describedby="telR" placeholder="Tel. Residencial">          
+        </div>  
+      </form>
+      </td>
+        <td>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">                
+              </label>
+              <input type="number" class="form-control2" id="tel" aria-describedby="telC" placeholder="Tel. Celular">          
+            </div>  
+          </form>
+        </td>
+        <td>  
+          <div class="wpp">
+            <h6>
+              WhatsApp?
+            </h6>          
+            <div class="material-switch pull-right">              
+              <input  id="someSwitchOptionPrimary" name="someSwitchOption001" type="checkbox"/>
+              <label for="someSwitchOptionPrimary" class="label-primary">                
+              </label>
+            </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Vínculo Empregatício
+            </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">
+              Estágio Profissional
+            </a>
+            <a class="dropdown-item" href="#">
+              Empregado doméstico
+            </a>
+            <a class="dropdown-item" href="#">
+              Trabalhador Autônomo
+            </a>
+            <a class="dropdown-item" href="#">
+              Trabalhador Eventual
+            </a>
+          </div>
+        </div>
+      </td>
+      <td>
+      <form>
+        <label for="exampleInputEmail1">          
+        </label>
+        <input type="email" class="form-control"  id="email" aria-describedby="email" placeholder="E-mail*">          
+      </form>
+    </td>
+  </tr>
+  <td>
+  <br>
+  </td>
+  <tr>
+    <td>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">            
+          </label>
+          <input type="number" class="form-control2" id="salario" aria-describedby="salarioB" placeholder="Salário Bruto*">          
+        </div>  
+      </form>
+      </td>
+        <td>
+          <form>
+            <div class="form-group">
+            <label for="exampleInputEmail1">              
+              </label>
+              <input type="number" class="form-control2" id="rendas" aria-describedby="rendas" placeholder="Demais rendas*">         
+            </div>  
+          </form>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <h6>
+      Sexo*
+    </h6>
+    <table style="width:30%">
+    <tr>
+      <td>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="defaultGroupExample7" name="groupOfDefaultRadios4">
+            <label class="custom-control-label" for="defaultGroupExample7">
+              <h9>
+                Masculino
+              </h9>
+            </label>
+          </div>
+        </td>
+        <td>
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="defaultGroupExample8" name="groupOfDefaultRadios4">
+            <label class="custom-control-label" for="defaultGroupExample8">
+              <h9>
+                Feminino
+              </h9>
+            </label>
+          </div>
+        </td>
+      </tr>
+      </table>
+      <br>
+      <h4>
+        Informações Adicionais
+      </h4>
+      <table style="width:60%">        
+        <tr>
+          <td>
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Estado Civil
+              </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">
+                Solteiro
+              </a>
+              <a class="dropdown-item" href="#">
+                Casado
+              </a>
+              <a class="dropdown-item" href="#">
+                Divorciado
+              </a>
+              <a class="dropdown-item" href="#">
+                Viúvo
+              </a>
+          </div>
+      </div>
+    </td>
+    <td>
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        N° de Dependentes
+      </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">
+            1
+          </a>
+          <a class="dropdown-item" href="#">
+            2
+          </a>
+          <a class="dropdown-item" href="#">
+            3
+          </a>
+        </div>
+      </div>
+    </td>
+  </tr>
+  </table> 
+  <br>  
+  <table style="width:30%">
+    <tr>
+      <th>
+        <h6>
+          Pretendente irá responder Financeiramente*?
+        </h6>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="defaultGroupExample9" name="groupOfDefaultRadios5">
+          <label class="custom-control-label" for="defaultGroupExample9">
+            <h9>
+              Sim
+            </h9>
+          </label>
+        </div>
+      </td>
+      <td>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="defaultGroupExample10" name="groupOfDefaultRadios5">
+          <label class="custom-control-label" for="defaultGroupExample10">
+            <h9>
+              Não
+            </h9>
+          </label>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <h6>
+          Pretendente possui Renda*?
+        </h6>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="defaultGroupExample11" name="groupOfDefaultRadios6">
+          <label class="custom-control-label" for="defaultGroupExample11">
+            <h9>
+              Sim
+            </h9>
+          </label>
+        </div>
+      </td>
+      <td>
+        <div class="custom-control custom-radio">
+          <input type="radio" class="custom-control-input" id="defaultGroupExample12" name="groupOfDefaultRadios6">
+            <label class="custom-control-label" for="defaultGroupExample12">
+              <h9>
+                Não
+              </h9>
+            </label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <h6>
+            Pretendente irá Residir no Imóvel*?
+          </h6>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="defaultGroupExample13" name="groupOfDefaultRadios7">
+            <label class="custom-control-label" for="defaultGroupExample13">
+              <h9>
+                Sim
+              </h9>
+            </label>
+          </div>
+        </td>
+        <td>
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="defaultGroupExample14" name="groupOfDefaultRadios7">
+            <label class="custom-control-label" for="defaultGroupExample14">
+              <h9>
+                Não
+              </h9>
+            </label>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <table style="width:70%">        
+      <tr>
+        <td>
+          <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tempo de Residência
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">
+              1 ano
+            </a>
+            <a class="dropdown-item" href="#">
+              2 anos
+            </a>
+            <a class="dropdown-item" href="#">
+              3 anos ou mais
+            </a>
+          </div>
+        </div>
+      </td>
+      <td>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Condições do Imóvel
+        </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">
+              Novo
+            </a>
+            <a class="dropdown-item" href="#">
+              Usado
+            </a>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <td>
+    <br>
+    </td>
+    <tr>
+      <td>
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Motivo Locação
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">
+              Preço
+            </a>
+            <a class="dropdown-item" href="#">
+              Local do Imóvel
+            </a>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table> 
+  </div>    
+  </div>
+  <br> 
+  <hr>
+    <h7>
+      Versão: 2.0.0
+    </h7>
+    <div class="texto">
+      <center>
+        <h7>
+          Copyright 2019. Todos direitos reservado.    SEG IMOB - Simples como todo bom negócio
+        </h7>
+     </center>
+   </div>
+   <div class="redesS">
+      <a href="https://www.facebook.com/">
+        <img  src="imagens/face.png">
+      </a>
+      <a href="https://www.linkedin.com/feed/">
+        <img  src="imagens/in.png">
+      </a>
+      <a href="https://www.instagram.com/?hl=pt-br">
+        <img  src="imagens/insta.png">
+      </a>
+      <a href="https://twitter.com/login?lang=pt">
+        <img  src="imagens/tw.png">
+      </a>
+      <a href="https://www.youtube.com/">
+        <img  src="imagens/you.png">
+      </a>
+    </div>
+  </div>
+  <br>   
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
